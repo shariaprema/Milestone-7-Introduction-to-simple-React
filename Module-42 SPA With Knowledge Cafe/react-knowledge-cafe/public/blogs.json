@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/zGtydbj/2.png",
+      "title": "The Great Adventure",
+      "author_img": "https://i.ibb.co/bvrwxwT/boy2.jpg",
+      "author": "John Doe",
+      "posted_data": "Mar 14 (4 Days ago)",
+      "reading_time": 8,
+      "hashtags": ["#Adventure", "#Exploration"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/3SkvFyN/blog1.jpg",
+      "title": "Cooking Masterclass",
+      "author_img": "https://i.ibb.co/Mf1N44m/boy1.png",
+      "author": "Jane Smith",
+      "posted_data": "Feb 14 (1 Month 4 Days ago)",
+      "reading_time": 5,
+      "hashtags": ["#Cooking", "#Cuisine"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/n3SF4w2/4.jpg",
+      "title": "Tech Trends 2023",
+      "author_img": "https://i.ibb.co/bvbdp5Y/girl2.jpg",
+      "author": "Kiki Johnson",
+      "posted_data": "Jan 30 (4 Months 14 Days ago)",
+      "reading_time": 2,
+      "hashtags": ["#Tech", "#Innovation"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/X729bd5/blog2.jpg",
+      "title": "Financial Planning 101",
+      "author_img": "https://i.ibb.co/qRbvMtv/girl1.jpg",
+      "author": "Sarah Davis",
+      "posted_data": "Sep 11 (1 Day ago)",
+      "reading_time": 7,
+      "hashtags": ["#Finance", "#Investment"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/9tQsSRR/1.jpg",
+      "title": "Art and Creativity",
+      "author_img": "https://i.ibb.co/ncPMMxr/3.png",
+      "author": "David Wilson",
+      "posted_data": "Mar 30 (8 Months 2 Days ago)",
+      "reading_time": 10,
+      "hashtags": ["#Art", "#Creativity"]
+    }
+  ]
+  

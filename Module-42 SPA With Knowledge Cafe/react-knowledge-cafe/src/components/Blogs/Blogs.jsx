@@ -28,7 +28,7 @@ useEffect(()=>{
 };
 
 Blogs.propTypes={
-    // handleAddToBookmarks: PropTypes.function.isRequired,
+    handleAddToBookmarks: PropTypes.func,
 }
 
 export default Blogs;

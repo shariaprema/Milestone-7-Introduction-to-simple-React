@@ -9,8 +9,9 @@ function App() {
 
   const [bookmarks, setBookmarks] = useState([])
 
-  const handleAddToBookmarks = Blog =>{
-    console.log('add to bookmarks');
+  const handleAddToBookmarks = blog =>{
+    const addBookMarks = [...bookmarks, blog];
+    setBookmarks(addBookMarks);
   }
 
   return (
@@ -18,10 +19,12 @@ function App() {
       <Header></Header>
      <div className='md:flex container mx-auto max-w-7xl text-[#111]'>
      <Blogs handleAddToBookmarks={handleAddToBookmarks}></Blogs>
-     <Bookmarks></Bookmarks>
+     <Bookmarks bookmarks={bookmarks}></Bookmarks>
      </div>
     </>
   )
 }
+
+
 
 export default App

@@ -3,9 +3,9 @@ const Header = () => {
     return (
         <>
         
-        <header className='flex justify-between items-center container  p-4 mx-auto border-b-2'>
-          <h1 className='text-4xl font-bold'>Knowledge Cafe</h1>
-          <img src={profile} alt="" />
+        <header className='flex justify-between items-center p-4 mx-auto max-w-7xl border-b-2 text-[#111]'>
+          <h1 className='text-4xl font-bold '>Knowledge Cafe</h1>
+          <img src={profile}  />
 
         </header>
         

@@ -11,16 +11,25 @@ function App() {
   const [readingTime, setReadingTime] = useState(0)// amra number dekhabo r number default 0 thakbe
 
 
-  const handleAddToBookmarks = blog =>{
+  const handleAddToBookmarks = (blog) =>{
     const addBookMarks = [...bookmarks, blog];
     setBookmarks(addBookMarks);
+
+    
   }
 
-
-  const handleMarksAsRead = time=>{
+  const handleMarksAsRead = (id,time)=>{
     setReadingTime(readingTime + time);
+
+    // for Removeing Bookmarks:
+    // console.log('removing', id)
+
+    const remainingBookmark = bookmarks.filter(bookmark=> bookmark.id !== id);
+    setBookmarks(remainingBookmark);
   }
 
+
+  
   return (
     <>
         <Header></Header>
